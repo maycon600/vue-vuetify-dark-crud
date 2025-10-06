@@ -1,5 +1,22 @@
-# Vue 3 + TypeScript + Vite
+# UNEMAT — Vue 3 + Vuetify 3 (Dark) CRUD
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Aplicação exemplo para a Avaliação 1 (Frameworks Modernos). Atende:
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+- 3+ rotas (`/`, `/manage`, `/about`)
+- `vue-router`
+- Componentização (cards, forms, dialogs, snackbar)
+- Diretivas: `v-for`, `v-if`, `v-else`, `v-bind`, `v-on`, `v-model`
+- Persistência `localStorage`
+- CRUD completo
+- Vuetify 3 UI (dark, responsivo, snackbars/dialogs)
+
+## Requisitos
+
+- Node 18+ (ou Bun/Pnpm equivalente)
+
+## Como rodar
+
+```bash
+npm i
+npm run dev
+```
