@@ -6,7 +6,6 @@
         >UNEMAT — Vue + Vuetify (Dark)</v-toolbar-title
       >
       <v-spacer />
-      <v-btn icon="mdi-github" :href="repoUrl" target="_blank" variant="text" />
     </v-app-bar>
 
     <v-navigation-drawer
@@ -52,7 +51,6 @@ import AppSnackbar from "./components/AppSnackbar.vue";
 
 const drawer = ref(true);
 const rail = ref(false);
-const repoUrl = "https://github.com/SEU-USUARIO/SEU-REPO";
 </script>
 
 <style scoped>
